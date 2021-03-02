@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class TasksTest {
 	
 	public WebDriver acessarAplicacao() {
-		System.setProperty("webdriver.chrome.driver", "C:\\train\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\train\\Selenium\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("http://localhost:8090/tasks");
 		return driver;
