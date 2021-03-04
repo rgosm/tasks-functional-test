@@ -20,8 +20,8 @@ public class TasksTest {
 		//System.setProperty("webdriver.chrome.driver", "C:\\train\\Selenium\\chromedriver\\chromedriver.exe");
 		//WebDriver driver = new ChromeDriver();
 		DesiredCapabilities cap =  DesiredCapabilities.chrome();
-		ChromeOptions op = new ChromeOptions();
-		op.setBinary("C:\\train\\Selenium\\chromedriver\\chromedriver.exe");
+		//ChromeOptions op = new ChromeOptions();
+		//op.setBinary("C:\\train\\Selenium\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.15.12:4444/wd/hub"), cap);
 		driver.navigate().to("http://192.168.15.12:8090/tasks");
 		return driver;
